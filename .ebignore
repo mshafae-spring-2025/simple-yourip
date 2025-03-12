@@ -1,3 +1,8 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
 # Start baseignore function
 *.tmproj
 *.tmproject
@@ -336,8 +341,3 @@ cython_debug/
 *.out
 *.app
 # End baseignore function
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
