@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 
 application = Flask(__name__)
+app = application
 
 @app.route("/")
 def show_me():
